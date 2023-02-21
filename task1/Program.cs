@@ -8,15 +8,15 @@
 // int numberA = int.Parse(Console.ReadLine()!);
 // Console.Write("Введите второе число: ");
 // int numberB = int.Parse(Console.ReadLine()!);
-// int max = 0;
-// if (numberA > max && numberB < numberA)
+// int max;
+// if (numberA >  numberB)
 // {
 //     max = numberA;
 //     Console.Write("max = ");
 //     Console.WriteLine(max);
 // }
 
-// if (numberB > max && numberB > numberA)
+// if (numberB > numberA)
 // {
 //     max = numberB;
 //     Console.Write("max = ");
@@ -38,23 +38,23 @@
 // int numberB = int.Parse(Console.ReadLine()!);
 // Console.Write("Введите третье число: ");
 // int numberC = int.Parse(Console.ReadLine()!);
-// int max = 0;
+// int max;
 
-// if (numberA > max && numberA > numberB && numberA > numberC)
+// if (numberA >numberB && numberA > numberC)
 // {
 //     max = numberA;
 //     Console.Write("max = ");
 //     Console.WriteLine(max);
 // }
 
-// if(numberB >  max && numberB > numberA && numberB > numberC)
+// if(numberB > numberA && numberB > numberC)
 // {
 //      max = numberB;
 //     Console.Write("max = ");
 //     Console.WriteLine(max);
 // }
 
-// if (numberC > max && numberC > numberA && numberC > numberB)
+// if (numberC > numberA && numberC > numberB)
 // {
 //     max = numberC;
 //     Console.Write("max = ");
